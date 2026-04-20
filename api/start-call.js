@@ -13,11 +13,11 @@ export default async function handler(req, res) {
     const response = await fetch("https://api.retellai.com/v2/create-web-call", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer key_9681e5ed0465244689602aa85e30",
+        "Authorization": "Bearer key_865981ebaa5103f327f2e57844de",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        agent_id: "agent_6be1535fb51177b611066eb41b"
+        agent_id: "agent_b5766d52160510ec2ea7d297db"
       })
     });
 
